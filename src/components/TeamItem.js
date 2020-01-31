@@ -9,9 +9,9 @@ function TeamItem({ src, title }) {
         <img src={src} className="img-fluid rounded-circle" width="200px" />
         <h3 className="mt-5">{title}</h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-          harum eum odit tempore quos dolor nesciunt rerum est totam alias,
-          suscipit,
+          Eric Wendt is a professional GIS Analyst, programmer, web developer, and AR/VR developer/enthusiast. 
+          He holds a B.A. in Environmental Policy, a Masters in Cybersecurity, and is a FAA Part 107 certified remote pilot.
+          He has a special interest in photogrammetry and the analysis of imagery for environmental applications.
         </p>
         <SocialIcon className="mr-4" url={"http://twitter.com/" + title} />
         <SocialIcon className="mr-4" url={"http://github.com/" + title} />
